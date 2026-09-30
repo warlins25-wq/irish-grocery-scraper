@@ -1,95 +1,69 @@
 import json
 import time
-import re
 from datetime import datetime
 import requests
-from bs4 import BeautifulSoup
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-IE,en-GB;q=0.9,en;q=0.8",
-    "Cache-Control": "no-cache",
-}
+# 1. Paste your free key from scraperapi.com here
+SCRAPERAPI_KEY = "f5202695409dccd4907fb09d688f9638"
 
-SEARCH_TERMS = [
-    "milk", "bread", "butter", "eggs", "cheese", 
+CATEGORIES = [
+    "milk", "bread", "butter", "eggs", "cheese",
     "chicken", "apples", "bananas", "coffee", "tea"
 ]
 
-def fetch_tesco_html(term):
+def fetch_dunnes_with_proxy(term):
     catalog = []
-    url = f"https://www.tesco.ie/groceries/en-IE/search?query={term}"
+    # Target URL on Dunnes Stores
+    target_url = f"https://www.dunnesstoresgrocery.com/api/v1/products/search?q={term}"
+    
+    # Route through ScraperAPI to bypass anti-bot & IP bans
+    proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={target_url}"
+    
     try:
-        res = requests.get(url, headers=HEADERS, timeout=12)
+        res = requests.get(proxy_url, timeout=30)
         if res.status_code == 200:
-            soup = BeautifulSoup(res.text, "html.parser")
-            items = soup.find_all("li", class_="product-list--list-item")
-            for idx, item in enumerate(items[:10]):
-                title_el = item.find("a", class_="data-unwrapped") or item.find("span", class_="title")
-                price_el = item.find("span", class_="value")
-                if title_el and price_el:
-                    catalog.append({
-                        "id": f"tesco_{term}_{idx}",
-                        "name": title_el.text.strip(),
-                        "price": f"€{price_el.text.strip()}",
-                        "store": "Tesco Ireland",
-                        "category": term,
-                        "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-                    })
+            data = res.json()
+            products = data.get("products", [])
+            for p in products[:10]:
+                catalog.append({
+                    "id": f"dunnes_{p.get('sku') or p.get('id')}",
+                    "name": p.get("name"),
+                    "price": f"€{p.get('price')}" if "€" not in str(p.get("price")) else str(p.get("price")),
+                    "store": "Dunnes Stores",
+                    "category": term,
+                    "image_url": p.get("image"),
+                    "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+                })
+            print(f"Dunnes [{term}]: Successfully extracted {len(products)} items")
     except Exception as e:
-        print(f"Tesco error on {term}: {e}")
-    return catalog
-
-def fetch_dunnes_html(term):
-    catalog = []
-    url = f"https://www.dunnesstoresgrocery.com/sm/delivery/rs-ie/results?q={term}"
-    try:
-        res = requests.get(url, headers=HEADERS, timeout=12)
-        if res.status_code == 200:
-            # Locate raw embedded JSON data inside HTML response page
-            match = re.search(r'__PRELOADED_STATE__\s*=\s*({.*?});', res.text)
-            if match:
-                raw_json = json.loads(match.group(1))
-                products = raw_json.get("products", {})
-                for key, p in list(products.items())[:10]:
-                    catalog.append({
-                        "id": f"dunnes_{p.get('sku', key)}",
-                        "name": p.get("name"),
-                        "price": f"€{p.get('price', {}).get('price', '0.00')}",
-                        "store": "Dunnes Stores",
-                        "category": term,
-                        "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-                    })
-    except Exception as e:
-        print(f"Dunnes error on {term}: {e}")
+        print(f"Error on Dunnes {term}: {e}")
+        
     return catalog
 
 def main():
-    dataset = []
-    print("Starting direct HTML extraction pipeline...")
+    database = []
+    print("Starting proxy-assisted scraping job...")
     
-    for term in SEARCH_TERMS:
-        print(f"Scraping category: {term}")
-        dataset.extend(fetch_tesco_html(term))
-        time.sleep(2)
-        dataset.extend(fetch_dunnes_html(term))
-        time.sleep(2)
-        
-    if not dataset:
-        print("Fallback triggered: IP restricted by cloud providers.")
-        dataset.append({
+    for term in CATEGORIES:
+        print(f"Fetching category: {term}")
+        items = fetch_dunnes_with_proxy(term)
+        database.extend(items)
+        time.sleep(1)
+
+    if not database:
+        print("Fallback triggered. Verify your ScraperAPI key.")
+        database.append({
             "id": "status_check",
-            "name": "System Status - Anti-Bot Protection Active",
+            "name": "System Status - Check ScraperAPI Key",
             "price": "€0.00",
             "store": "System",
             "category": "Status",
             "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
         })
 
-    print(f"Saving {len(dataset)} items to products.json")
+    print(f"Saving {len(database)} items into products.json...")
     with open("products.json", "w", encoding="utf-8") as f:
-        json.dump(dataset, f, indent=2, ensure_ascii=False)
+        json.dump(database, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()
