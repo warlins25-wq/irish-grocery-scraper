@@ -3,62 +3,61 @@ import time
 from datetime import datetime
 import requests
 
-# Your ScraperAPI Key
+# Your ScraperAPI key
 SCRAPERAPI_KEY = "f5202695409dccd4907fb09d688f9638"
 
-CATEGORIES = [
-    "milk", "bread", "butter", "eggs", "cheese",
-    "chicken", "apples", "bananas", "coffee", "tea"
-]
+CATEGORIES = ["milk", "bread", "butter", "eggs", "cheese"]
 
-def fetch_dunnes_products(term):
+def fetch_tesco_products(term):
     catalog = []
-    # Direct internal API endpoint used by Dunnes web frontend
-    target_api = f"https://www.dunnesstoresgrocery.com/api/v1/products/search?q={term}"
+    # Tesco Ireland internal grocery search API endpoint
+    target_url = f"https://www.tesco.ie/groceries/en-IE/resources/search?query={term}"
     
-    # Query ScraperAPI using standard API proxy mode
-    proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={target_api}"
+    # Pass via ScraperAPI
+    proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={target_url}"
     
     try:
         response = requests.get(proxy_url, timeout=30)
         if response.status_code == 200:
             data = response.json()
-            # Extract product array from API payload
-            items = data.get("products", []) or data.get("data", {}).get("products", [])
+            # Extract products from Tesco API response payload
+            items = data.get("uk", {}).get("ghs", {}).get("products", {}).get("results", [])
             
             for p in items[:10]:
                 catalog.append({
-                    "id": f"dunnes_{p.get('id') or p.get('sku')}",
-                    "name": p.get("name") or p.get("title"),
-                    "price": f"€{p.get('price')}" if "€" not in str(p.get("price")) else str(p.get("price")),
-                    "store": "Dunnes Stores",
+                    "id": f"tesco_{p.get('id')}",
+                    "name": p.get("title"),
+                    "price": f"€{p.get('price')}",
+                    "store": "Tesco Ireland",
                     "category": term,
-                    "image_url": p.get("image") or p.get("imageUrl"),
+                    "image_url": p.get("image"),
                     "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
                 })
-            print(f"Successfully scraped Dunnes [{term}]: {len(catalog)} items")
+            print(f"Tesco [{term}]: Found {len(catalog)} products")
+        else:
+            print(f"Tesco [{term}] returned status code: {response.status_code}")
     except Exception as e:
-        print(f"Error fetching Dunnes category '{term}': {e}")
+        print(f"Error fetching Tesco '{term}': {e}")
         
     return catalog
 
 def main():
     database = []
-    print("Starting direct API proxy ingestion...")
+    print("Starting Tesco-only extraction pipeline...")
     
     for term in CATEGORIES:
-        print(f"Processing category: {term}")
-        items = fetch_dunnes_products(term)
+        print(f"Fetching Tesco category: {term}")
+        items = fetch_tesco_products(term)
         database.extend(items)
         time.sleep(1)
 
     if not database:
-        print("ScraperAPI request returned zero results.")
+        print("Tesco extraction returned zero items. Verify ScraperAPI key status.")
         database.append({
             "id": "status_check",
-            "name": "System Status - Unable to query store API",
+            "name": "System Status - Tesco Test Failed",
             "price": "€0.00",
-            "store": "System",
+            "store": "Tesco Ireland",
             "category": "Status",
             "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
         })
