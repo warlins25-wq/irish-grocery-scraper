@@ -1,10 +1,92 @@
 [
   {
-    "id": "status_check",
-    "name": "System Status - Tesco Test Failed",
-    "price": "€0.00",
-    "store": "Tesco Ireland",
-    "category": "Status",
-    "last_updated": "2026-09-30 10:51:50 UTC"
+    "id": "ie_eggs_1",
+    "name": "mayonnaise (Hellmann's)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "eggs",
+    "image_url": "https://images.openfoodfacts.org/images/products/871/811/472/4485/front_en.46.200.jpg",
+    "last_updated": "2026-09-30 10:54:57 UTC"
+  },
+  {
+    "id": "ie_eggs_2",
+    "name": "Seriously Good Mayonnaise (Heinz)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "eggs",
+    "image_url": "https://images.openfoodfacts.org/images/products/500/015/707/6410/front_en.46.200.jpg",
+    "last_updated": "2026-09-30 10:54:57 UTC"
+  },
+  {
+    "id": "ie_eggs_3",
+    "name": "REAL MAYONNAISE (BATTS)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "eggs",
+    "image_url": "https://images.openfoodfacts.org/images/products/405/648/951/9706/front_en.3.200.jpg",
+    "last_updated": "2026-09-30 10:54:57 UTC"
+  },
+  {
+    "id": "ie_eggs_4",
+    "name": "Medium Egg Noodles (Lidl, Taste Of)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "eggs",
+    "image_url": "https://images.openfoodfacts.org/images/products/405/648/936/5310/front_en.20.200.jpg",
+    "last_updated": "2026-09-30 10:54:57 UTC"
+  },
+  {
+    "id": "ie_eggs_5",
+    "name": "Medium Egg Noodles (TESCO)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "eggs",
+    "image_url": "https://images.openfoodfacts.org/images/products/505/290/953/9339/front_en.18.200.jpg",
+    "last_updated": "2026-09-30 10:54:57 UTC"
+  },
+  {
+    "id": "ie_tea_1",
+    "name": "McVities Rich Tea Biscuits (McVitie's)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "tea",
+    "image_url": "https://images.openfoodfacts.org/images/products/500/016/800/1210/front_en.82.200.jpg",
+    "last_updated": "2026-09-30 10:55:01 UTC"
+  },
+  {
+    "id": "ie_tea_2",
+    "name": "McVitie's Rich Tea Classic 2 x (McVitie's)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "tea",
+    "image_url": "https://images.openfoodfacts.org/images/products/500/016/812/4858/front_en.24.200.jpg",
+    "last_updated": "2026-09-30 10:55:01 UTC"
+  },
+  {
+    "id": "ie_tea_3",
+    "name": "Rich Tea (Belmont Biscuits)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "tea",
+    "image_url": "https://images.openfoodfacts.org/images/products/408/860/010/8063/front_en.23.200.jpg",
+    "last_updated": "2026-09-30 10:55:01 UTC"
+  },
+  {
+    "id": "ie_tea_4",
+    "name": "Boost Berry Rooibos Tea + Ginseng (Vit Hit)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "tea",
+    "image_url": "https://images.openfoodfacts.org/images/products/503/403/300/0381/front_en.43.200.jpg",
+    "last_updated": "2026-09-30 10:55:01 UTC"
+  },
+  {
+    "id": "ie_tea_5",
+    "name": "Green Tea (Tesco)",
+    "price": "€1.99",
+    "store": "Irish Market Data",
+    "category": "tea",
+    "image_url": "https://images.openfoodfacts.org/images/products/505/189/869/7259/front_en.14.200.jpg",
+    "last_updated": "2026-09-30 10:55:01 UTC"
   }
 ]
