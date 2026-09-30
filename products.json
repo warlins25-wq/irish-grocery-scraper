@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "status_check",
+    "name": "System Status - Online",
+    "price": "€0.00",
+    "store": "System",
+    "category": "Status",
+    "last_updated": "2026-09-30 10:25:38 UTC"
+  }
+]
