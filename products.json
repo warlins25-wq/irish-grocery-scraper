@@ -1,10 +1,10 @@
 [
   {
     "id": "status_check",
-    "name": "System Status - Unable to query store API",
+    "name": "System Status - Tesco Test Failed",
     "price": "€0.00",
-    "store": "System",
+    "store": "Tesco Ireland",
     "category": "Status",
-    "last_updated": "2026-09-30 10:48:24 UTC"
+    "last_updated": "2026-09-30 10:51:50 UTC"
   }
 ]
