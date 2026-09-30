@@ -1,10 +1,10 @@
 [
   {
     "id": "status_check",
-    "name": "System Status - Online",
+    "name": "System Status - Anti-Bot Protection Active",
     "price": "€0.00",
     "store": "System",
     "category": "Status",
-    "last_updated": "2026-09-30 10:25:38 UTC"
+    "last_updated": "2026-09-30 10:30:01 UTC"
   }
 ]
