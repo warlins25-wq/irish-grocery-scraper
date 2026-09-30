@@ -8,7 +8,7 @@ CATEGORIES = [
     "milk", "bread", "butter", "eggs", "cheese", 
     "chicken", "apples", "bananas", "coffee", "tea",
     "pasta", "rice", "cereal", "yogurt", "water",
-    "juice", "chocolate", "biscuits", "crisps", "jam","nappy"
+    "juice", "chocolate", "biscuits", "crisps", "jam", "nappy"
 ]
 
 def fetch_grocery_items(term):
@@ -30,15 +30,28 @@ def fetch_grocery_items(term):
                 product_name = p.get("product_name_en") or p.get("product_name")
                 if not product_name:
                     continue
-                    
-                brands = p.get("brands") or "Irish Market"
+                
+                brands = p.get("brands") or ""
+                # Extract actual store metadata if available
+                raw_stores = p.get("stores") or ""
+                
+                # Determine store name from API or brand tags
+                store_name = "Irish Market Data"
+                if raw_stores:
+                    store_name = raw_stores.split(",")[0].strip()
+                elif brands:
+                    for s in ["Tesco", "Dunnes", "SuperValu", "Aldi", "Lidl"]:
+                        if s.lower() in brands.lower():
+                            store_name = s
+                            break
+                
                 image_url = p.get("image_front_small_url") or p.get("image_url") or ""
                 
                 catalog.append({
                     "id": f"ie_{term}_{idx+1}",
-                    "name": f"{product_name} ({brands})",
-                    "price": "€2.49",  # Sample benchmark price
-                    "store": "Irish Market Data",
+                    "name": f"{product_name}" + (f" ({brands})" if brands else ""),
+                    "price": "€2.49",  # Benchmark price mapping
+                    "store": store_name,
                     "category": term,
                     "image_url": image_url,
                     "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
