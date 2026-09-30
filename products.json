@@ -1,10 +1,10 @@
 [
   {
     "id": "status_check",
-    "name": "System Status - Verify ScraperAPI Key or Target Site Structure",
+    "name": "System Status - Unable to query store API",
     "price": "€0.00",
     "store": "System",
     "category": "Status",
-    "last_updated": "2026-09-30 10:44:09 UTC"
+    "last_updated": "2026-09-30 10:48:24 UTC"
   }
 ]
