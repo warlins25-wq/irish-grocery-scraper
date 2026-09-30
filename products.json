@@ -1,10 +1,10 @@
 [
   {
     "id": "status_check",
-    "name": "System Status - Anti-Bot Protection Active",
+    "name": "System Status - Check ScraperAPI Key",
     "price": "€0.00",
     "store": "System",
     "category": "Status",
-    "last_updated": "2026-09-30 10:30:01 UTC"
+    "last_updated": "2026-09-30 10:38:39 UTC"
   }
 ]
