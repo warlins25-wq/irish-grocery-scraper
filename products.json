@@ -1,893 +1,452 @@
 [
   {
-    "id": "ie_milk_1",
-    "name": "The original oat-ly barista edition oat drink (Oatly)",
-    "price": "€2.49",
-    "store": "Asda",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/739/437/661/6228/front_en.197.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_2",
-    "name": "Greek Style Natural Light 2% fat",
-    "price": "€2.49",
-    "store": "lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/041/6690/front_en.230.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_3",
-    "name": "Full fat soft cheese (PHILADELPHIA)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/762/220/169/3916/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_4",
-    "name": "Total 0% fat (FAGE)",
-    "price": "€2.49",
-    "store": "co-op",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/520/105/401/7418/front_en.74.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_5",
-    "name": "Natural Thick And Creamy (The Coconut Collab)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/068/056/985/4124/front_en.117.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_6",
-    "name": "Greek 0% Fat Authentic Greek Yogurt (Brooklea)",
-    "price": "€2.49",
-    "store": "Aldi",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/006/0941/front_en.122.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_7",
-    "name": "kefir drink original (Biotiful gut health)",
-    "price": "€2.49",
-    "store": "ASDA",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/506/033/722/0415/front_en.41.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_8",
-    "name": "Total 5% Fat Greek Yogurt (FAGE)",
+    "id": "ie_bread_1",
+    "name": "White Ciabattin (Jason's Sourdough)",
     "price": "€2.49",
     "store": "Sainsbury's",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/520/105/401/7432/front_en.6.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/502/512/500/0006/front_en.106.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_milk_9",
-    "name": "Kefir Drink Original (Biotiful Dairy)",
+    "id": "ie_bread_2",
+    "name": "JASON'S SOURDOUGH (JASON'S SOURDOUGH)",
     "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/506/033/722/1085/front_en.23.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
+    "store": "Ocado",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/502/512/500/0129/front_en.81.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_milk_10",
-    "name": "Natural Cottage Cheese (Milbona)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/099/4945/front_en.109.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_11",
-    "name": "Whole Nut Milk Chocolate with Roasted Hazelnuts (Fin Carré)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/000/5771/front_en.140.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_12",
-    "name": "cocoa orange (nakd.)",
-    "price": "€2.49",
-    "store": "Sainsbury's",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/506/008/870/1478/front_en.65.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_13",
-    "name": "PHILADELPHIA ORIGINAL (PHILADELPHIA)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/762/220/169/5521/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_14",
-    "name": "Greek 10% fat authentic yogurt (Brooklea)",
-    "price": "€2.49",
-    "store": "Aldi",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/006/0880/front_en.81.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_15",
-    "name": "Total 0% Fat (FAGE)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/520/105/401/7517/front_en.58.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_16",
-    "name": "Crème dessert saveur chocolat caramel (LIDL)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/992/0045/front_en.105.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_17",
-    "name": "Bolachas Belvita Breakfast Milk & Cereals (Belvita)",
+    "id": "ie_bread_3",
+    "name": "Seed Sensations Seven Seeds (Hovis)",
     "price": "€2.49",
     "store": "Asda",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/762/220/201/8701/front_en.51.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/501/000/306/4744/front_en.76.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_milk_18",
-    "name": "FULL FAT SOFT CHEESE (TESCO, Tesco)",
+    "id": "ie_bread_4",
+    "name": "Dark Rye Crispbread (RYVITA)",
     "price": "€2.49",
-    "store": "Tesco",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/505/796/739/5132/front_en.55.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
+    "store": "alcampo",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/501/026/500/2911/front_en.54.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_milk_19",
-    "name": "Full Fat Soft Cheese (Milbona)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/010/3286/front_en.156.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_20",
-    "name": "Greek Natural Yogurt 10% Fat (Milbona)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/057/7414/front_en.44.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_21",
-    "name": "Greek Yogurt (Tesco finest)",
-    "price": "€2.49",
-    "store": "Tesco",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/505/232/026/9839/front_en.20.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_22",
-    "name": "Mini Original (Babybel)",
-    "price": "€2.49",
-    "store": "Aldi",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/307/378/091/8763/front_en.41.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_23",
-    "name": "Greek Natural Yogurt 0% Fat (Milikana)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/057/7391/front_en.42.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_24",
-    "name": "SOFT CHEESE (Lidl)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/010/3354/front_en.161.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_25",
-    "name": "Cheestrings (Strings & Things)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/500/018/713/0946/front_en.18.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_26",
-    "name": "Organic Milk Chocolate 37% Cocoa (Green & Black's)",
-    "price": "€2.49",
-    "store": "Waitrose",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/762/221/058/0092/front_en.32.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_27",
-    "name": "Greek style yogurt (TESCO)",
-    "price": "€2.49",
-    "store": "Tesco",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/505/737/348/9593/front_en.34.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_28",
-    "name": "Soft Cheese Original (Aldi)",
-    "price": "€2.49",
-    "store": "Aldi",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/004/6648/front_en.36.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_29",
-    "name": "Oat Organic Drink (Rude Health)",
-    "price": "€2.49",
-    "store": "Dunnes",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/506/012/028/1975/front_en.21.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_30",
-    "name": "Kokosnussdrink mit Soja, Barista (alpro)",
-    "price": "€2.49",
-    "store": "Michus Supermercados",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/541/118/811/9753/front_en.151.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_31",
-    "name": "Oat Milk (Barista Style) (Aldi, Acti Leaf)",
-    "price": "€2.49",
-    "store": "Aldi",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/406/145/932/9834/front_en.32.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_32",
-    "name": "MINOR FIGURES BARISTA OAT (ORGANIC) (Minor Figures)",
+    "id": "ie_bread_5",
+    "name": "Multigrain Crispbread (RYVITA)",
     "price": "€2.49",
     "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/506/040/608/0452/front_en.57.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/505/097/450/5259/front_en.61.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_milk_33",
-    "name": "HEINZ TOMATO, GRANA PADANO & MASCARPONE PASTA SAUCE (Heinz)",
+    "id": "ie_bread_6",
+    "name": "DURUM WHEAT PIADINA (CROSTA MOLLICA)",
     "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/500/015/714/6342/front_en.31.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
+    "store": "Dunnes Stores",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/506/019/864/2760/front_en.70.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_milk_34",
-    "name": "Babybel Mini Original (Babehel)",
-    "price": "€2.49",
-    "store": "Centra",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/307/378/082/8628/front_en.12.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_35",
-    "name": "Baileys - Original Irish Cream (Baileys)",
-    "price": "€2.49",
-    "store": "Carrefour",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/501/101/310/0156/front_en.155.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_36",
-    "name": "Almond No Sugars (Acti Leaf)",
-    "price": "€2.49",
-    "store": "Aldi",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/406/145/933/2896/front_en.50.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_37",
-    "name": "Oat Milk (Califia Farms)",
-    "price": "€2.49",
-    "store": "Morrisons",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/081/363/602/1932/front_en.30.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_38",
-    "name": "Light Philadelphia (Philadelphia)",
-    "price": "€2.49",
-    "store": "sainsbury-s",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/762/220/169/3954/front_en.45.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_39",
-    "name": "Plain Soya Pot (Vemondo)",
+    "id": "ie_bread_7",
+    "name": "Sesame Crispbread (Rivercote)",
     "price": "€2.49",
     "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/946/6598/front_en.68.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/000/004/087/4302/front_en.57.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_milk_40",
-    "name": "Soya Unsweetened (Simply…)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/433/561/910/6758/front_en.11.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_41",
-    "name": "Cottage Cheese (Graham's)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/502/584/000/5195/front_en.29.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_42",
-    "name": "Natural Kefir (Mlekovita)",
-    "price": "€2.49",
-    "store": "Tesco",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/590/051/285/0290/front_en.29.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_43",
-    "name": "Cold Milled Flaxseed (Linwoods)",
-    "price": "€2.49",
-    "store": "Amazon",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/501/688/700/3503/front_en.44.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_44",
-    "name": "Supreme Creamy (Violife, ARIVIA FOOD LIMITED LIABILITY COMPANY)",
-    "price": "€2.49",
-    "store": "Amazon",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/520/239/001/3836/front_en.141.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_45",
-    "name": "Oat Creamy plant based (Vemondo)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/951/7511/front_en.61.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_46",
-    "name": "full fat soft cheese (Milbona (Lidl))",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/986/1744/front_en.18.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_47",
-    "name": "Soya Drink no added sugars plant-based (Lidl)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/969/5363/front_en.68.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_48",
-    "name": "BARISTA OAT (Acti leaf)",
-    "price": "€2.49",
-    "store": "Aldi",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/406/145/929/0349/front_en.4.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_49",
-    "name": "Greek style natural yoghurt (Aldi, Brooklea)",
-    "price": "€2.49",
-    "store": "Aldi",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/026/6008/front_en.28.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_milk_50",
-    "name": "BARISTA OAT (MINOR FIGURES)",
-    "price": "€2.49",
-    "store": "the co-operative",
-    "category": "milk",
-    "image_url": "https://images.openfoodfacts.org/images/products/506/040/608/0223/front_en.34.200.jpg",
-    "last_updated": "2026-10-18 03:25:01 UTC"
-  },
-  {
-    "id": "ie_apples_1",
-    "name": "Apple & raisin oat bars (Deliciously ella)",
-    "price": "€2.49",
-    "store": "Sainsbury’s",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/506/048/284/0179/front_en.66.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_2",
-    "name": "APPLE + ELDERFLOWER (VIT-HIT)",
-    "price": "€2.49",
-    "store": "Colruyt",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/503/403/300/0220/front_en.53.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_3",
-    "name": "Vitamin water: Apple & Elderflower (Carrick Glen)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/942/1719/front_en.20.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_4",
-    "name": "Colmans Apple Sauce (Colman's)",
-    "price": "€2.49",
-    "store": "Tesco",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/871/410/053/5516/front_en.6.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_5",
-    "name": "squashies apple and cherry (Swizzels)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/501/047/805/1140/front_en.8.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_6",
-    "name": "Double Strength Squash Apple & Blackcurrant (Lidl, Lindhouse)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/040/1825/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_7",
-    "name": "PINK LADY® APPLES (TESCO)",
+    "id": "ie_bread_8",
+    "name": "Wholemeal Pittas (Tesco)",
     "price": "€2.49",
     "store": "tesco",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/000/324/9833/front_en.36.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/500/011/909/5282/front_en.43.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_8",
-    "name": "Bramley Apple Pies 6 Pack (Tesco)",
+    "id": "ie_bread_9",
+    "name": "Peter's Yard Original Sourdough Crackers (Peter's Yard)",
+    "price": "€2.49",
+    "store": "Sainsbury's",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/506/019/882/0052/front_en.12.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_10",
+    "name": "Original Breadsticks (Tesco)",
     "price": "€2.49",
     "store": "Tesco",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/501/837/418/8618/front_en.13.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/501/837/428/5577/front_en.76.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_9",
-    "name": "Rice Apple (Müller)",
+    "id": "ie_bread_11",
+    "name": "Schar Maestro Cereale (Schär)",
     "price": "€2.49",
     "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/402/550/027/8106/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/000/001/008/6988/front_en.77.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_10",
-    "name": "Apple cider vinegar",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/509/873/200/4873/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_11",
-    "name": "Apple juice (innocent)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/503/886/243/9954/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_12",
-    "name": "Apple Juice (Naturis)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/997/5427/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_13",
-    "name": "Apple + Elderflower Maté Tea + L-Carnitine (VIT-HIT LEAN & GREEN)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/503/403/300/0800/front_en.21.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_14",
-    "name": "Easy Squeezy Apple & Blackcurrant (Lindhouse)",
-    "price": "€2.49",
-    "store": "Lidl",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/989/6753/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_15",
-    "name": "Spiced Apple & Pear Chutney (Specially Selected)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/057/1119/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_16",
-    "name": "Pure Apple Juice (Kulana)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/005/092/5827/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_17",
-    "name": "Irish apple cider vinegar",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/539/150/773/1418/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_18",
-    "name": "Bramley Apple Sauce (Aldi, Bramwells)",
+    "id": "ie_bread_12",
+    "name": "Wholewheat Bread (Baker McCannidy)",
     "price": "€2.49",
     "store": "Aldi",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/018/6955/front_en.9.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/509/963/000/2237/front_en.34.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_19",
-    "name": "Daily 3-in-1 Apple + Blackcurrant Tablets (PHIZZ)",
+    "id": "ie_bread_13",
+    "name": "Tortilla Wraps (Whitworths Mill Bakery)",
     "price": "€2.49",
     "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/506/044/785/0083/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/433/561/907/0806/front_en.58.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_20",
-    "name": "Guava, Pineapple & Apple smoothie (innocent)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/503/886/283/1338/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_21",
-    "name": "Apple, Mango, Spinach & Avocado Freshly Squeezed Juice (Naturis)",
+    "id": "ie_bread_14",
+    "name": "Seeded Tortilla Wraps (Rowan Hill Bakery)",
     "price": "€2.49",
     "store": "Lidl",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/967/9622/front_en.7.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/405/648/923/9666/front_en.21.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_22",
-    "name": "Apple Juice (Lidl, Naturis)",
+    "id": "ie_bread_15",
+    "name": "Plain Tortilla Wraps (Rowan Hill Bakery)",
     "price": "€2.49",
     "store": "Lidl",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/405/648/974/3309/front_en.15.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/405/648/923/9642/front_en.43.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_23",
-    "name": "super smoothie CITRUS DEFENCE (innocent)",
+    "id": "ie_bread_16",
+    "name": "Granary Medium (Hovis)",
     "price": "€2.49",
     "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/503/886/223/7420/front_en.15.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/501/000/300/1169/front_en.45.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_24",
-    "name": "Apple juice",
+    "id": "ie_bread_17",
+    "name": "Original Thick Sliced Brown Bread with added Malted Wheat Flakes (Hovis Granary)",
     "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/012/4049/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "store": "tesco",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/501/000/300/1176/front_en.34.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_25",
-    "name": "Apple juice from concentrate (The Grower's Harvest)",
-    "price": "€2.49",
-    "store": "Tesco",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/500/043/677/9414/front_en.20.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_27",
-    "name": "Pressed Apple Juice (Dunnes Stores)",
-    "price": "€2.49",
-    "store": "Dunnes Stores",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/509/987/411/1962/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_28",
-    "name": "Organic Soft Apple Biscotti (Bunalun Organic)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/539/150/092/1571/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_29",
-    "name": "Apple wood Smoked Irish ham (Specially Selected)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/049/1875/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_30",
-    "name": "Apple strawberry grape juice (Eviva)",
-    "price": "€2.49",
-    "store": "LIDL",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/056/0812/front_en.5.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_31",
-    "name": "Mi Wadi Apple and Blackcurrant (Mi Wadi)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/539/152/183/3501/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_32",
-    "name": "Apple & Mango Juice (NATURIS)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/430/449/326/9866/front_en.8.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_33",
-    "name": "Cloudy Apple Juice (Naturis)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_34",
-    "name": "winter tea caramel apple",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_35",
-    "name": "Pink Lady Apple Snack Pack (Tesco)",
-    "price": "€2.49",
-    "store": "Tesco",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/505/775/349/4506/front_en.11.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_36",
-    "name": "Sparkling Italian Apple Presse",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/000/002/036/7503/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_37",
-    "name": "Smoothies (Innocent kids apples and blackcurrants)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/503/886/263/3390/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_38",
-    "name": "Apple Turnovers (Gráinne's)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/026/2024/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_39",
-    "name": "Apple juice from concentrate (Dunnes Stores)",
-    "price": "€2.49",
-    "store": "Dunnes Stores",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/509/987/400/0938/front_en.5.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_40",
-    "name": "Apfel Nektar (Clever)",
-    "price": "€2.49",
-    "store": "Billa",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/901/015/800/1010/front_cs.19.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_41",
-    "name": "Mini apple rice cakes",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/509/983/936/9902/front_en.9.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_42",
-    "name": "26 D 20:09 mi Wadi 0% SUGAR APPLE & PEAR WITH B&D (Mi wadi)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/539/152/184/0400/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_43",
-    "name": "Apfelmus (Spar Natur pur)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/910/000/044/1757/front_en.4.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_44",
-    "name": "Apples (Dunnes Stores)",
-    "price": "€2.49",
-    "store": "Dunnes Stores",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/509/987/416/6429/front_en.6.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_45",
-    "name": "Apple and Raspberry Soft Drink with Sugar and Sweetener (J2O)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/501/010/211/7877/front_en.4.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_46",
-    "name": "Pink Lady apples (Pink Lady)",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/509/987/419/4101/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_47",
-    "name": "Organic Baby Fromage Frais Mango with Apple and Banana",
-    "price": "€2.49",
-    "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/509/964/900/3157/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_48",
-    "name": "apple tart (Aldi)",
+    "id": "ie_bread_18",
+    "name": "8 Tortilla Wraps Wholemeal (Village Bakery)",
     "price": "€2.49",
     "store": "Aldi",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/408/860/028/3234/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/408/860/011/1209/front_en.43.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   },
   {
-    "id": "ie_apples_49",
-    "name": "Apple rice cakes from 7+ months (Dunnes Stores)",
-    "price": "€2.49",
-    "store": "Dunnes Stores",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/509/987/432/5536/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
-  },
-  {
-    "id": "ie_apples_50",
-    "name": "Drumstick Squashies, sour cherry and apple",
+    "id": "ie_bread_19",
+    "name": "Chia & Quinoa Loaf (Promise Gluten Free)",
     "price": "€2.49",
     "store": "Irish Market Data",
-    "category": "apples",
-    "image_url": "https://images.openfoodfacts.org/images/products/501/047/866/7013/front_en.3.200.jpg",
-    "last_updated": "2026-10-18 03:25:08 UTC"
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/539/152/641/4422/front_en.29.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_20",
+    "name": "Rye sourdough flatbread - M&S Food (Marks & Spencer)",
+    "price": "€2.49",
+    "store": "M&S",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/000/002/937/9521/front_en.26.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_21",
+    "name": "Multi Grain Loaf (Promise Gluten Free)",
+    "price": "€2.49",
+    "store": "Tesco",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/539/152/641/4385/front_en.10.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_22",
+    "name": "6 Soft Kids Wraps (Fitzgeralds Family Bakery)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/509/907/700/1572/front_en.3.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_23",
+    "name": "SUPER SEEDED Bread (Marks & Spencers)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/000/000/072/4159/front_en.3.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_24",
+    "name": "Protein Tortilla Wraps (Village Bakery)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/408/860/055/0572/front_en.64.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_25",
+    "name": "Sliced seedy multigrain bread",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_26",
+    "name": "Sesame Seed Bagels (New York Bakery Co)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/501/829/700/6471/front_en.3.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_27",
+    "name": "Fermented Traditional Turnover (Stafford's Bakeries)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/509/940/600/0566/front_en.3.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_28",
+    "name": "MULTISEED & CEREAL BAGEL Slims (FITZGERALDS FAMILY BAKERY)",
+    "price": "€2.49",
+    "store": "Ocado",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/509/907/700/2265/front_en.16.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_29",
+    "name": "High Protein Wraps (BFree)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/539/152/169/1309/front_en.51.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_30",
+    "name": "Mini Plain Tortilla Wraps (Rowan Hill Bakery)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/405/648/985/1714/front_en.16.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_31",
+    "name": "Family Pan Premium White Bread (Brennans)",
+    "price": "€2.49",
+    "store": "supervalu",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/501/105/900/0014/front_en.21.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_32",
+    "name": "Multiseed & Cereal Bagels (Fitzgeralds)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/509/907/700/1862/front_en.21.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_33",
+    "name": "TOSTADAS CASERAS AMARILLAS (GUERRERO)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/004/856/406/7008/front_en.33.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_34",
+    "name": "Sourdough Wholemeal (Gallaghers Bakehouse)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/539/152/641/6044/front_en.34.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_35",
+    "name": "Pain nordique (Carrefour)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_36",
+    "name": "Brown Pitta Breads (Rowan Hill Bakery)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/539/151/362/0430/front_en.18.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_37",
+    "name": "Plain Poppadoms (Lidl)",
+    "price": "€2.49",
+    "store": "Lidl",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/000/002/060/8118/front_en.17.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_38",
+    "name": "Sourdough Wholemeal (Gallaghers Bakehouse)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_39",
+    "name": "Malted Sourdough Loaf (Specially Selected)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/408/860/007/9899/front_en.3.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_40",
+    "name": "Rustic White Sourdough (Promise Gluten Free)",
+    "price": "€2.49",
+    "store": "Tesco",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/539/152/641/4880/front_en.3.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_41",
+    "name": "white Bagels (Connell Bakery)",
+    "price": "€2.49",
+    "store": "Biedronka",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/000/002/041/7673/front_en.16.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_42",
+    "name": "Pumpernickel (Lidl)",
+    "price": "€2.49",
+    "store": "Lidl",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/405/648/902/6051/front_en.40.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_43",
+    "name": "SESAME SEED BAGELS (FITZGERALDS FAMILY BAKERY)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/509/907/700/1732/front_en.34.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_44",
+    "name": "Panko bread crumbs (Obento)",
+    "price": "€2.49",
+    "store": "Coles",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/931/043/200/3212/front_en.64.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_45",
+    "name": "Sliced Brioche Hot Dog Rolls (Specially Selected)",
+    "price": "€2.49",
+    "store": "aldi",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/408/860/004/2022/front_en.27.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_46",
+    "name": "Sourdough Rustic White (Gallaghers Bakehouse)",
+    "price": "€2.49",
+    "store": "Irish Market Data",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/539/152/641/6068/front_en.31.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_47",
+    "name": "Wholewheat brown bread (Ballymore Crust)",
+    "price": "€2.49",
+    "store": "Aldi",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/408/860/046/1427/front_en.15.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_48",
+    "name": "Flame Baked Roti (Marks & Spencers)",
+    "price": "€2.49",
+    "store": "Marks and Spencers",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/000/002/913/5455/front_en.3.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_49",
+    "name": "Flame-Baked Wild Garlic Flatbreads (Tesco)",
+    "price": "€2.49",
+    "store": "Tesco",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/505/969/776/3830/front_en.3.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
+  },
+  {
+    "id": "ie_bread_50",
+    "name": "Plain Wraps (Fitzgeralds)",
+    "price": "€2.49",
+    "store": "Dunnes Stores",
+    "category": "bread",
+    "image_url": "https://images.openfoodfacts.org/images/products/509/907/700/1350/front_en.31.200.jpg",
+    "last_updated": "2026-10-19 03:28:13 UTC"
   }
 ]
